@@ -9,4 +9,6 @@ func main(){
 	name3 = "Godwin"
 	var num4 int= 25
 	fmt.Println(name1, name2, name3, num4)
+	fmt.Print(name1 + " ")
+	fmt.Println(name1)
 }
