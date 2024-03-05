@@ -1,7 +1,8 @@
 package main
 
 import (
-	"fmt";
+	"fmt"
+	"sort"
 	"strings"
 )
 
@@ -33,12 +34,17 @@ func main(){
 
 
 
+
 	var nameOf [4]string = [4]string{"desmond", "randolf","Brian", "Agogo"}
 	nameOf[0] = "Immanuel"
-	family:= "My name is desmond and from Kumba"
+	// family:= "My name is desmond and from Kumba"
 
 	// fmt.Print(strings.Contains(family, "ond"));
 	// fmt.Print(strings.Replace(family, "desmond", "Brian", 1));
 	// fmt.Print(strings.Index(family, "ond"));
-	fmt.Print(strings.Split(family, ","));
+	// fmt.Print(strings.Split(family, ","));
+
+	age:=[]int{43, 45, 97, 20, 12, 90,48}
+	sort.Ints(age);
+	
 }
