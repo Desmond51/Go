@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"sort"
-	"strings"
+	// "strings"
 )
 
 func main(){
@@ -46,5 +46,8 @@ func main(){
 
 	age:=[]int{43, 45, 97, 20, 12, 90,48}
 	sort.Ints(age);
-	
+	fmt.Println(age)
+	index := sort.SearchInts(age, 12)
+	fmt.Println(index)
+
 }
