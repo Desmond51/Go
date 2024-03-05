@@ -1,14 +1,44 @@
-package main;
-import "fmt";
+package main
+
+import (
+	"fmt";
+	"strings"
+)
 
 func main(){
 	//string
-	var name1 string = "Dezy";
-	var name2 string = "Chris";
-	name3:= "Baddest boy"
-	name3 = "Godwin"
-	var num4 int= 25
-	fmt.Println(name1, name2, name3, num4)
-	fmt.Print(name1 + " ")
-	fmt.Println(name1)
+	// var name1 string = "Dezy";
+	// var name2 string = "Chris";
+	// name3:= "Baddest boy"
+	// name3 = "Godwin"
+	// var num4 int= 25
+	// fmt.Println(name1, name2, name3, num4)
+	// fmt.Print(name1 + " ")
+	// fmt.Println(name1)
+
+	//arrays
+// 	var name [4]string = [4]string{"Desmond", "Brian","Javis", "Randolf"};
+//    name [0] = "Paul"
+// 	fmt.Println(name)
+
+// 	//Slices
+// 	var count = []int{1,2,3,4,5};
+// 	count [1] = 3
+// 	var newCount = append(count, 9)
+
+// 	fmt.Println(count, newCount)
+
+
+
+
+
+
+	var nameOf [4]string = [4]string{"desmond", "randolf","Brian", "Agogo"}
+	nameOf[0] = "Immanuel"
+	family:= "My name is desmond and from Kumba"
+
+	// fmt.Print(strings.Contains(family, "ond"));
+	// fmt.Print(strings.Replace(family, "desmond", "Brian", 1));
+	// fmt.Print(strings.Index(family, "ond"));
+	fmt.Print(strings.Split(family, ","));
 }
