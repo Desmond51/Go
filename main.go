@@ -49,10 +49,25 @@ func main(){
 	// fmt.Println(age);
 	// index := sort.SearchInts(age, 12)
 	// fmt.Println(index)
+
+	//Loop
+
 	ourName := []string{"desmond", "randolf","Brian", "Agogo"}
-for i:=0; i<len(ourName); i++ {
-	fmt.Println("hello, your name is", ourName[i])
-}
+// for i:=0; i<len(ourName); i++ {
+// 	fmt.Println("hello, your name is", ourName[i])
+// }
+
+
+//.......
+// for index, value := range ourName{
+// 	fmt.Println("hello, the value at index %v is %v", index, value)
+// }
+
+//.......
+ for _, value := range ourName{
+ 	fmt.Printf("hello, my name is %v \n", value)
+ }
+
 }
 
 // func seeLoops(){
