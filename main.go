@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"sort"
+	// "sort"
 	// "strings"
 )
 
@@ -44,10 +44,17 @@ func main(){
 	// fmt.Print(strings.Index(family, "ond"));
 	// fmt.Print(strings.Split(family, ","));
 
-	age:=[]int{43, 45, 97, 20, 12, 90,48}
-	sort.Ints(age);
-	fmt.Println(age)
-	index := sort.SearchInts(age, 12)
-	fmt.Println(index)
-
+	// age:=[]int{43, 45, 97, 20, 12, 90,48}
+	// sort.Ints(age);
+	// fmt.Println(age);
+	// index := sort.SearchInts(age, 12)
+	// fmt.Println(index)
+	ourName := []string{"desmond", "randolf","Brian", "Agogo"}
+for i:=0; i<len(ourName); i++ {
+	fmt.Println("hello, your name is", ourName[i])
 }
+}
+
+// func seeLoops(){
+
+// }
