@@ -64,10 +64,23 @@ func main(){
 // }
 
 //.......
- for _, value := range ourName{
- 	fmt.Printf("hello, my name is %v \n", value)
- }
+//  for _, value := range ourName{
+//  	fmt.Printf("hello, my name is %v \n", value)
+//  }
 
+  // Break and Contnue;
+  for index, value:= range ourName{
+	if index== 1 {
+		fmt.Println("Continue at pos", index)
+		continue
+	}
+	if index == 2{
+		fmt.Println("Break at this pos", index)
+		break
+	}
+	fmt.Println("th value at pos %v is %v \n", index, value)
+	
+  };
 }
 
 // func seeLoops(){
