@@ -78,7 +78,7 @@ func main(){
 		fmt.Println("Break at this pos", index)
 		break
 	}
-	fmt.Println("th value at pos %v is %v \n", index, value)
+	fmt.Printf("th value at pos %v is %v \n", index, value)
 	
   };
 }
