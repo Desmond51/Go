@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	// "sort"
 	// "strings"
 )
@@ -81,8 +82,16 @@ func main(){
 	fmt.Printf("th value at pos %v is %v \n", index, value)
 	
   };
+
+  //Math method
+
+  areaOne := calculateArea(6.5);
+  areaTwo:= calculateArea(4.5); 
+
+  fmt.Printf("The area is %0.2f and %0.2f", areaOne, areaTwo)
 }
 
-// func seeLoops(){
+func calculateArea(r float64) float64{
+	return math.Pi *r * r
 
-// }
+}
